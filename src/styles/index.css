@@ -1,10 +1,10 @@
 body.light-mode {
-    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    background: linear-gradient(135deg, #faf7f2, #f3eccf);
     color: #000;
 }
 
 body.dark-mode {
-    background: linear-gradient(135deg, #1e1e1e, #2c3e50);
+    background: linear-gradient(135deg, #1e1e1e, #372c50);
     color: #eee;
 }
 
@@ -74,7 +74,7 @@ h2 {
     flex: 1;
     min-width: 200px;
     padding: 10px 15px;
-    border: 2px solid #007bff;
+    border: 2px solid #ff0000;
     border-radius: 8px;
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
@@ -82,7 +82,7 @@ h2 {
 
 .form-container button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff0000;
     color: white;
     border: none;
     border-radius: 8px;
@@ -92,7 +92,7 @@ h2 {
 }
 
 .form-container button:hover {
-    background-color: #0056b3;
+    background-color: #b30000;
 }
 
 body.dark-mode .form-container input {
